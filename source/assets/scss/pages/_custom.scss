@@ -376,6 +376,103 @@ background: linear-gradient(172deg, rgba(255,255,255,1) 0%, rgba(210,230,238,1) 
     border-radius: 10px;
     overflow: hidden;
 }
+.div-blue{
+    display: block;
+    width: 10rem;
+    flex-grow: 1;
+    align-items: center;
+    
+    background-color: #00223D;
+}
+.div-cyan{
+    display: block;
+    width: 10rem;
+    flex-grow: 1;
+    background-color: #50B3B8;
 
+}
+.div-general{
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+    height: 80vh;
+    width: 50Vw;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.jb-blue{
+    background-color:#00223D;
+    color:#00223D;
+}
+.jb-cyan{
+    background-color:#50B3B8;
+    color:#50B3B8;
+}
+.hvc{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #50B3B8;
+    font-size: 32px;
+    display: block;
+    margin: auto;
+    text-align: center; 
+}
+.hvb{
+    font-family: "Roboto";
+    font-weight: bold;
+    color:#00223D;
+    font-size: 32px;
+    display: block;
+    margin: auto;
+    text-align: center; 
+}
+.texdiv{
+    border: #50B3B8 solid 2px;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: baseline;
+    margin-bottom: 10px;
+    width: 95%;
+    margin: auto;
+    display:block;
+
+}
+.texdiv-2   {
+    border:#00223D solid 2px;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: baseline;
+    margin-bottom: 10px;
+    width: 95%;
+    margin: auto;
+    display:block;
+
+}
+.parrafo-d{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align:center;
+
+}
+.parrafo-b{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    padding-top: 4  0px;
+    text-align:center;
+    line-height: 150%;
+
+}
+.img-div{
+    width: 50%;
+}
 
 
