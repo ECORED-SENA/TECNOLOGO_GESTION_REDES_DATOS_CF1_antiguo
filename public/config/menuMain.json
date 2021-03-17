@@ -19,32 +19,26 @@
     "slug": "redes-de-datos",
     "title": "Redes de datos",
     "breadcrumb": ["Inicio","Redes-de-datos"],
-    "path": "pages/1-tema.html",    
+    "path": "pages/tema1.html",    
     "submenu": []   
   },
   { 
-    "id": 2,
+    "id": 1,
     "icon": "fa fa-play-circle",
-    "slug": "tecnologias-y-conceptos-basicos-de-networking",
-    "title": "tecnologías y conceptos básicos de networking",
-    "breadcrumb": ["Inicio","Tecnologías y conceptos básicos de networking"],
-    "path": "pages/2-tema.html",    
+    "slug": "tecnologia-networking",
+    "title": "Tecnología y conceptos básicos de networking",
+    "breadcrumb": ["Inicio","tecnologia-networking"],
+    "path": "pages/tema2.html",    
     "submenu": []   
   },
-  
   { 
-    "id": 2,
+    "id": 1,
     "icon": "fa fa-play-circle",
-    "slug": "Diseño-e-implementación-de-la-red-LAN",
+    "slug": "diseno-implementacion-lan",
     "title": "Diseño e implementación de la red LAN",
-    "breadcrumb": ["Inicio","Diseño e implementación de la red LAN"],
-    "path": "pages/3-tema.html",    
+    "breadcrumb": ["Inicio","diseño-implenetacion-lan"],
+    "path": "pages/tema3.html",    
     "submenu": []   
-  },
-  {
-    "icon": "fa fa-question-circle",
-    "slug": "actividad-1",
-    "title": "Actividad didáctica",
-    "path": "pages/actividad-1.html"
-  } 
+  }
+  
 ]
