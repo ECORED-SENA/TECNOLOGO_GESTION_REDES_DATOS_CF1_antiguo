@@ -40,7 +40,7 @@ $indigo: #727cf5; // NOT USED
 $purple: #6b5eae;
 $pink: #ff679b; // NOT USED
 $red: #E63757;
-$orange: #fd7e14; // NOT USED
+$orange: #50B3B8; // NOT USED
 $yellow: #F6C343;
 $green: #00D97E;
 $teal: #02a8b5; // NOT USED
@@ -55,7 +55,7 @@ $cyan: #39afd1; // NOT USED
 
 //Colores base curso sena
 $dark-blue: #00223D;
-$dark-orange:#ff8f00;
+$dark-orange:#50B3B8;
 
 $primary: $black-dark;
 $secondary: $gray-700;
@@ -70,13 +70,13 @@ $dark: $black;
 $base-color: $black-dark;
 $base-color-dark:$black-dark;
 $base-color-light: #F3F7FA;
-$base-color-highlight: $dark-orange;
+$base-color-highlight: #50B3B8;
 $base-color-gray: #CBD9E4;
 
 // Validation states Colors
 $color-success: lighten(#00A99A, 10%);
 $color-info: lighten($info, 15%);
-$color-warning: lighten($dark-orange, 15%);
+$color-warning: lighten(#00A99A, 15%);
 $color-danger: desaturate($red, 15%);
 
 // Font Colors
