@@ -9,21 +9,25 @@
 
             .row 
                 .col-6
-                    img.card-img-top(src="assets/images/pages/ilustraciones/img1.svg", alt='...')
+                    .img-container  
+                        img.card-img-top(src="assets/images/pages/ilustraciones/img1.svg", alt='...')
                 .col-6
-                    img.card-img-top(src="assets/images/pages/ilustraciones/img2.svg", alt='...') 
+                    .img-container  
+                        img.card-img-top(src="assets/images/pages/ilustraciones/img2.svg", alt='...') 
 
             .jumbotron.bg1.mt-5
                 .row 
                     .col-10.my-5    
                         p Se conoce como red de datos a la infraestructura cuyo diseño posibilita la transmisión de información a través del intercambio de datos. De acuerdo con Pérez (2003), cada una de estas redes se ha diseñado específicamente para satisfacer sus objetivos, con una arquitectura determinada para facilitar el intercambio de los contenidos.
                     .col-2.my-2
-                        img.card-img-top(src="assets/images/pages/ilustraciones/img3.svg", alt='...').img-fluid
+                        .img-container  
+                            img.card-img-top(src="assets/images/pages/ilustraciones/img3.svg", alt='...').img-fluid
             hr.line
             
             .row.mt-5 
                 .col-6
-                    img.card-img-top(src="assets/images/pages/ilustraciones/img4.svg", alt='...')
+                    .img-container  
+                        img.card-img-top(src="assets/images/pages/ilustraciones/img4.svg", alt='...')
                 .col-6
                     .h2c 1.1 La historia
                     p.parrafos.mt-5 La historia de las redes de computadoras tiene sus orígenes al comienzo del siglo XIX. Los primeros sistemas se denominaban de telégrafo óptico y consistían en torres, similares a los molinos, con una serie de brazos o bien persianas. Estos brazos o persianas codificaban la información por sus distintas posiciones.
@@ -40,7 +44,8 @@
                     p.parrafo La última etapa en el desarrollo fue la creación de la World Wide Web, a cargo de Tim Berners-Lee, quien a principio de los ’90 inventó el sistema de links, fundamental para el crecimiento de la red de redes. Tim Berners no patentó su invento para no poner escollos comerciales a la evolución de Internet. Su aporte fue reconocido recientemente, cuando fue condecorado como caballero por la realeza británica y además fue elegido por la revista Time como uno de los 20 pensadores más influyentes del siglo XX.
 
                 .col-6
-                    img.card-img-top(src="assets/images/pages/ilustraciones/img5.svg", alt='...')
+                    .img-container  
+                        img.card-img-top(src="assets/images/pages/ilustraciones/img5.svg", alt='...')
             hr.line
             
 
@@ -165,11 +170,11 @@
 
                     p.parrafo Los protocolos pueden ser implementados mediante hardware (tarjetas de red), software (drivers), o una combinación de ambos.
                 .col-6
-                    img.img-a(src="assets/images/pages/ilustraciones/img19.svg", alt='...').img-fluid
+                    img.img-a(src="assets/images/pages/ilustraciones/img19.svg", alt='...').img-fluid.d-block-m-auto
                 
                 //Arreglar aliniacion de imagen
             .row 
-                 img.img-a(src="assets/images/pages/ilustraciones/img20.svg", alt='...').img-fluid
+                 img.img-a.d-block.m-auto(src="assets/images/pages/ilustraciones/img20.svg", alt='...').img-fluid
             
             hr.line
 
@@ -272,37 +277,41 @@
             .h2c 1.6 Topologías de redes 
             .row.mt-5 
                 .col-6
-                    .jumbotron.jt1
+                    .div.jt1
                         p.pf1 En cuanto a la topología física, existen tres tipos considerados básicos para montar una red:
-                    .jumbotron.jt2 
-                        ul.ul-bullet 
+                    .div.jt2.mt-3
+                        ul.ul-bullet.mt-0.mb-0 
                             li La red en bus consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, pobre escalamiento entre otras.
 
-                    .jumbotron.jt2 
+                    .div.jt2.mt-3 
                         ul.ul-bullet 
                             li En una red en anillo cada estación está conectada a la siguiente y la última está conectada a la primera.
-                    .jumbotron.jt2 
+                    .div.jt2.mt-3 
                         ul.ul-bullet 
                             li En una red en estrella las estaciones están conectadas directamente a un punto central y todas las comunicaciones se han de hacer necesariamente a través de este.
+               
                 .col-6
                     p.parrafo El resto de las topologías físicas que se pueden dar son combinaciones de las anteriores.
                     img.img-a(src="assets/images/pages/ilustraciones/img22.svg", alt='...').img-fluid
                     div.ct1.mt-5
-                        .col-3 
-                            img.img-a(src="assets/images/pages/ilustraciones/img23.svg", alt='...').img-fluid
-                        .col-10
+                    .row
+                        .col-3.d-inline-block 
+                            img.img-a.pull-left(src="assets/images/pages/ilustraciones/img23.svg", alt='...').img-fluid
+                        .col-9.d-inline-block
                             p.parrafo Broadcast: se basa en que cada ordenador envía sus datos hacia todos los demás del medio de red. Las operaciones se realizan por orden de llegada como si fuese Ethernet.
                     div.ct1.mt-5
-                        .col-3 
+                    .row
+                        .col-3.d-inline-block 
                             img.img-a(src="assets/images/pages/ilustraciones/img24.svg", alt='...').img-fluid
-                        .col-10
+                        .col-9.d-inline-block
                             p.parrafo Transmisión de tokens: se basa en la transmisión de forma secuencial de tokens electrónicos a cada ordenador. Hay dos tipos de redes que utilizan esta topología: TokenRing y FDDI.
 
             hr.line        
             .h2c 1.7 Modelo TCP/IP y OSI 
-                .jumbotron.jt3
+            .div.divr
+                .jumbotron.div-blue
 
-            ul.h2c 
+            ul.h2c.ul-bullet 
                 li Comparación entre los modelos OSI y TCP/IP
             .row 
                 .col-6  
@@ -319,11 +328,12 @@
                     img.img-a(src="assets/images/pages/ilustraciones/img27.svg", alt='...').img-fluid
                 .col-8 
                     p.parrafo Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo Ethernet es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, switches, cables UTP, bridges, entre otros.
+                     img.img-a(src="assets/images/pages/ilustraciones/img35.svg", alt='...').img-fluid
             .jumbotron.borderjb.mt-5
                 p.parrafo Los objetivos principales de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
                 .row 
-                    .col-6 
-                        ul.ul-bullet
+                    .col-4 
+                        ul.ul-bullet.float-right.my-5
                             li Simplicidad
                             li Bajo costo 
                             li Compatibilidad 
@@ -334,5 +344,21 @@
                             li Estabilidad 
                             li Mantenimiento 
                             li Arquitectura en capas
-                    .col-6
-                        img.img-a(src="assets/images/pages/ilustraciones/img28.svg", alt='...').img-fluid 
+                    .col-8
+                        .img-container
+                            img.img-a(src="assets/images/pages/ilustraciones/img28.svg", alt='...').img-fluid 
+                .h2c 1.8.2 La trama de Ethernet 
+                p.parrafo.mt-3 En una red Ethernet los dispositivos intercambian paquetes de datos entre sí, los llamados paquetes Ethernet. En su contenido se incluye la trama Ethernet (a menudo denominada también trama de datos), que a su vez se divide en varios conjuntos de datos. Estos registros consisten en código binario que proporciona información importante, incluyendo direcciones, información de control, datos de uso y sumas de comprobación.
+                .row   
+                    .col-4
+                        .img-container
+                            img.img-a(src="assets/images/pages/ilustraciones/img36.svg", alt='...').img-fluid
+                    .col-8 
+                        div.my-5
+                            p.parrafo Los tipos de Ethernet son:
+                            ul.ul-bullet 
+                                li Ethernet
+                                li Fast Ethernet
+                                li Gigaabit Ethernet
+
+
