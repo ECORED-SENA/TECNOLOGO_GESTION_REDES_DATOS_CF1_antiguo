@@ -33,7 +33,7 @@
                     p.parrafos.mt-3 La historia de las redes de computadoras tiene sus orígenes al comienzo del siglo XIX. Los primeros sistemas se denominaban de telégrafo óptico y consistían en torres, similares a los molinos, con una serie de brazos o bien persianas. Estos brazos o persianas codificaban la información por sus distintas posiciones.
                     p.parrafos Estas redes permanecieron hasta mediados del siglo XIX, cuando fueron sustituidas por el telégrafo, cada torre, evidentemente, debía de estar a distancia visual de las siguientes; cada torre repetía la información hasta llegar a su destino. Un sistema similar aparece, y tiene un protagonismo especial, en la novela Pavana, de Keith Roberts, una ucronía en la cual Inglaterra ha sido conquistada por la Armada Invencible.
 
-            .jumbotron.borderjb.mt-5
+            .jumbotron.borderjb.mt-5.bg1
                 p.parrafo.mt-0 Las primeras redes comerciales se valían del protocolo Arcnet (Attached Resource Computer Network), desarrollado por Datapoint Corporation, alrededor de 1980. Utilizaba cable coaxial y empleaba conexiones de 2.5 Mbps, en ese tiempo considerada alta velocidad.
 
                 p.parrafo La primera red informática surgió en la Guerra Fría y se denominó Arpanet. Se creó durante la cortina de hierro, y su objetivo principal era que la información militar de los Estados Unidos no estuviera centralizada y pudiera estar disponible en un punto del país ante un eventual ataque ruso. Sólo unos meses después de la primera conexión, la red ya contaba con cuatro nodos remotos en otras instituciones estadounidenses como el Instituto de Investigaciones de Standford y la Universidad de Utah.
@@ -210,7 +210,7 @@
             .row.mt-5 
                 .col-sm-12.col-lg-5 
                     .h2c 1.3 Medios de transmisión
-                    p.parrafo.mt-3 Los medios de transmisión son las vías por las cuales se comunican los datos. Dependiendo de la forma de conducir la señal a través del medio o soporte físico, 
+                    p.parrafo.mt-3 Los medios de transmisión son las vías por las cuales se comunican los datos. Dependiendo de la forma de conducir la señal a través del medio o soporte físico. 
                 .col-sm-12.col-lg-7
                     img.img-a(src="assets/images/pages/ilustraciones/img14.svg", alt='...').img-fluid
 
@@ -222,13 +222,43 @@
                     .h1cc.mt-3 Medio de transmisión guiados.
                     p.parrafo.mt-3 Los medios de transmisión guiados están constituidos por cables que se encargan de la conducción (o guiado) de las señales desde un extremo al otro. Las principales características de los medios guiados son el tipo de conductor utilizado, la velocidad máxima de transmisión, las distancias máximas que puede ofrecer entre repetidores, la inmunidad frente a interferencias electromagnéticas, la facilidad de instalación y la capacidad de soportar diferentes tecnologías de nivel de enlace. Dentro de los medios de transmisión guiados, los más utilizados en el campo de las telecomunicaciones y la interconexión de computadoras son tres:
 
-                    img.img-a(src="assets/images/pages/ilustraciones/img16.svg", alt='...').img-fluid
-            .row.mt-5
+                    div.div-badge.shadow-sm
+                        div.badge-cyan.py-auto
+                            .h-badge.mx-auto a.
+                        div.badge-white
+                            p.p-badge Cable de par trenzado
+                    div.div-badge.shadow-sm
+                        div.badge-cyan.py-auto
+                            .h-badge.mx-auto b.
+                        div.badge-white
+                            p.p-badge Cable coaxial
+                    div.div-badge.shadow-sm
+                        div.badge-cyan.py-auto
+                            .h-badge.mx-auto c.
+                        div.badge-white
+                            p.p-badge Fibra óptica
+            .row.mt-3
                 .col-sm-12.col-lg-6   
                     .h1cc Medio de transmisión no guiados.
                     p.parrafo.mt-3 Los medios no guiados o comunicación sin cable transportan ondas electromagnéticas sin usar un conductor físico, sino que se radian a través del aire, por lo que están disponibles para cualquiera que tenga un dispositivo capaz de aceptarlas. En este tipo de medios tanto la transmisión como la recepción de información se lleva a cabo mediante antenas. Según el rango de frecuencias de trabajo, las transmisiones no guiadas se pueden clasificar en tres tipos:
+                    
+                    div.div-badge.shadow-sm
+                        div.badge-cyan.py-auto
+                            .h-badge.mx-auto a.
+                        div.badge-white
+                            p.p-badge Ondas de radio
+                    div.div-badge.shadow-sm
+                        div.badge-cyan.py-auto
+                            .h-badge.mx-auto b.
+                        div.badge-white
+                            p.p-badge Mircoondas
+                    div.div-badge.shadow-sm
+                        div.badge-cyan.py-auto
+                            .h-badge.mx-auto c.
+                        div.badge-white
+                            p.p-badge Infrarrojo
 
-                    img.img-a(src="assets/images/pages/ilustraciones/img18.svg", alt='...').img-fluid 
+                     
                 .col-sm-12.col-lg-6  
                     .jumbotron.bg2.my-auto
                         img.img-a(src="assets/images/pages/ilustraciones/img17.svg", alt='...').img-fluid.d-block.m-auto
@@ -244,11 +274,42 @@
                     .col-sm-12.col-lg-6 
                         img.img-a(src="assets/images/pages/ilustraciones/img19.svg", alt='...').img-fluid
                     
-                    //Arreglar aliniacion de imagen
+                    
                 .row.mt-5
                     .col-sm-12.col-lg-12
-                        .img-container 
-                            img.img-a(src="assets/images/pages/ilustraciones/img20.svg", alt='...').img-fluid.d-block.m-auto
+                        .h2c Ejemplo:
+                        div.container-badges.flex-row
+                            
+                            div.div-badge.shadow-sm
+                                div.badge-blue.py-auto
+                                    .h-badge.mx-auto a.
+                                div.badge-white
+                                    p.p-badge NetBIOS
+                            div.div-badge.shadow-sm
+                                div.badge-blue.py-auto
+                                    .h-badge.mx-auto b.
+                                div.badge-white
+                                    p.p-badge NetBEUI
+                            div.div-badge.shadow-sm
+                                div.badge-blue.py-auto
+                                    .h-badge.mx-auto c.
+                                div.badge-white
+                                    p.p-badge IPX
+                            div.div-badge.shadow-sm
+                                div.badge-blue.py-auto
+                                    .h-badge.mx-auto d.
+                                div.badge-white
+                                    p.p-badge Apple Talk
+                            div.div-badge.shadow-sm
+                                div.badge-blue.py-auto
+                                    .h-badge.mx-auto e.
+                                div.badge-white
+                                    p.p-badge DECnet
+                            div.div-badge.shadow-sm
+                                div.badge-blue.py-auto
+                                    .h-badge.mx-auto f.
+                                div.badge-white
+                                    p.p-badge TCP/IP
                 
             hr.line
 
@@ -354,14 +415,14 @@
                     .div.jt1
                         p.pf1 En cuanto a la topología física, existen tres tipos considerados básicos para montar una red:
                     .div.jt2.mt-3
-                        ul.ul-bullet.mt-0.mb-0 
+                        ul.ul-bullet.mt-3.mb-3 
                             li La red en bus consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, pobre escalamiento entre otras.
 
                     .div.jt2.mt-3 
-                        ul.ul-bullet 
+                        ul.ul-bullet.mt-3.mb-3  
                             li En una red en anillo cada estación está conectada a la siguiente y la última está conectada a la primera.
                     .div.jt2.mt-3 
-                        ul.ul-bullet 
+                        ul.ul-bullet.mt-3.mb-3  
                             li En una red en estrella las estaciones están conectadas directamente a un punto central y todas las comunicaciones se han de hacer necesariamente a través de este.
                
                 .col-sm-12.col-lg-6
@@ -385,7 +446,7 @@
             .h2c 1.7 Modelo TCP/IP y OSI 
                 .row.mt-3
                      
-                        .col-xs-12.col-sm-12.col-md-12.col-lg-6.div-blue
+                        .col-xs-12.col-sm-12.col-md-12.col-lg-6.div-blue.p-5
                             .row 
                                 .col-12.pt-3
                                     img.img-a(src="assets/images/pages/ilustraciones/img37.svg", alt='...').img-fluid.img-div
@@ -393,7 +454,7 @@
                                     .hvc TCP/IP
                                     div.textdiv
                                         p.parrafo-d De acuerdo con Corona (2004), los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, que estaba integrada por cientos de computadoras de universidades, centros de investigación militar y algunas empresas. El e-mail (electronic mail) fue el servicio más comúnmente utilizado entonces, mientras que el sistema operativo más empleado era UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. Fue a mediados de los ochenta cuando fue creado el protocolo TCP/IP con la finalidad de contar con un lenguaje común a todas las computadoras conectadas a Internet, ya con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP representa, entonces, las reglas que hacen posible la conexión de computadoras de marcas y tecnología diferentes.
-                        .col-xs-12.col-sm-12.col-md-12.col-lg-6.div-cyan
+                        .col-xs-12.col-sm-12.col-md-12.col-lg-6.div-cyan.p-5
                             .row 
                                 .col-12.pt-3
                                     img.img-a(src="assets/images/pages/ilustraciones/img38.svg", alt='...').img-fluid.img-div
@@ -401,18 +462,47 @@
                                     .hvb OSI
                                     div.textdiv
                                         p.parrafo-b A principios de los años ochenta, la Organización Internacional para la Estandarización (ISO, International Standards Organization) desarrolló el modelo de referencia de interconexión de sistemas abiertos (OSI, Open Systems Interconnect) para estandarizar la forma en que se comunican los dispositivos en una red. Este modelo representó un gran paso en aras de asegurar la interoperabilidad entre dispositivos de red.El modelo OSI divide las comunicaciones de red en siete capas diferenciadas. Si bien existen otros modelos, actualmente la mayoría de los proveedores de red desarrollan sus productos utilizando este marco.
-
-           
-            
+        
+                        .row.mt-3
+                            .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                                ul.ul-bullet.mt-5  
+                                    li.h1cc Comparación entre los modelos OSI y TCP/IP
+                            .col-xs-12.col-sm-12.col-md-12.col-lg-6.mt-3
+                                p.parrafos El modelo OSI y el modelo TCP/IP son modelos de referencia que se utilizan para describir el proceso de comunicación de datos. El modelo TCP/IP se utiliza específicamente para la suite de protocolos TCP/IP, y el modelo OSI se utiliza para el desarrollo de comunicación estándar para equipos y aplicaciones de diferentes proveedores. El modelo TCP/IP realiza el mismo proceso que el modelo OSI, pero utiliza cuatro capas en lugar de siete.
+                            .col-xs-12.col-sm-12.col-md-12.col-lg-6
+                                img.img-a(src="assets/images/pages/ilustraciones/img39.svg", alt='...').img-fluid.d-block.m-auto
+                            .col-xs-12.col-sm-12.col-md-12.col-lg-12
+                                img.img-a(src="assets/images/pages/ilustraciones/img40.svg", alt='...').img-fluid.d-block.m-auto
             hr.line.mt-5
+
             .h2c 1.8 Tecnología Ethernet
             .row.mt-3  
                 .col-sm-12.col-lg-4
                     img.img-a(src="assets/images/pages/ilustraciones/img27.svg", alt='...').img-fluid.d-block.m-auto
                 .col-sm-12.col-lg-8
                     p.parrafo.mt-3 Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo Ethernet es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, switches, cables UTP, bridges, entre otros.
-                     img.img-a(src="assets/images/pages/ilustraciones/img35.svg", alt='...').img-fluid.mt-3
-            .jumbotron.borderjb.mt-5
+                    div.container-badges.d-block.m-auto
+                            div.div-badge.shadow-sm
+                                div.badge-cyan.py-auto
+                                    img.img-a(src="assets/images/pages/ilustraciones/badge.svg", alt='...').img-fluid.img-badge
+                                div.badge-white
+                                    p.p-badge Enrutadores
+                            div.div-badge.shadow-sm
+                                div.badge-cyan.py-auto
+                                    img.img-a(src="assets/images/pages/ilustraciones/badge.svg", alt='...').img-fluid.img-badge
+                                div.badge-white
+                                    p.p-badge Switches
+                            div.div-badge.shadow-sm
+                                div.badge-cyan.py-auto
+                                    img.img-a(src="assets/images/pages/ilustraciones/badge.svg", alt='...').img-fluid.img-badge
+                                div.badge-white
+                                    p.p-badge Cables UTP
+                            div.div-badge.shadow-sm
+                                div.badge-cyan.py-auto
+                                    img.img-a(src="assets/images/pages/ilustraciones/badge.svg", alt='...').img-fluid.img-badge
+                                div.badge-white
+                                    p.p-badge Bridges
+            .jumbotron.borderjb.mt-5.bg1
                 .h2c 1.8.1 Objetivos
  
                 p.parrafo.mt-3 Los objetivos principales de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
@@ -432,7 +522,7 @@
                     .col-sm-12.col-lg-8
                         .img-container
                             img.img-a(src="assets/images/pages/ilustraciones/img28.svg", alt='...').img-fluid 
-                .h2c 1.8.2 La trama de Ethernet 
+                .h2c.mt-3 1.8.2 La trama de Ethernet 
                 p.parrafo.mt-3 En una red Ethernet los dispositivos intercambian paquetes de datos entre sí, los llamados paquetes Ethernet. En su contenido se incluye la trama Ethernet (a menudo denominada también trama de datos), que a su vez se divide en varios conjuntos de datos. Estos registros consisten en código binario que proporciona información importante, incluyendo direcciones, información de control, datos de uso y sumas de comprobación.
                 .row   
                     .col-sm-12.col-lg-6
